@@ -1,0 +1,84 @@
+*{
+  box-sizing: border-box
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #e5e5e5;
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.text-center {
+  text-align: center
+}
+
+.container{
+  width:60%;
+  margin: 10% auto;
+}
+
+.ListItems{
+  background: #ffffff;
+  color: black;
+}
+
+.ListItems p{
+  margin: 0;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.ListItems span{
+  display: inline-block;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+  border: 0.3px solid black ;
+}
+
+.ListItems span.title{
+  background: #727375;
+  color: white;
+}
+
+.ListItems span.name, form input[type=text]{
+  width: 60%;
+}
+
+.ListItems span.age, form input[type=number]{
+  width: 30%;
+}
+
+.ListItems span.action, form input[type=submit]{
+  width: 10%;
+}
+
+.ListItems span.icon{
+  color: #f00;
+  cursor: pointer;
+}
+
+form input {
+  padding: 10px;
+  background: #ffffff;
+  border : transparent;
+  border:  0.3px solid black;
+}
+
+form input[type=submit]{
+  background: #5f91f4;
+  border: 0.3px solid #5f91f4;
+  color: white;
+  cursor: pointer;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
