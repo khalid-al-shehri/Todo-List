@@ -9,16 +9,16 @@ simple project for react js "Todo List"
 <br />
 
 ## Screenshots:
-<img src="/screenshots/1.png"> 
+<img src="/screens/1.png"> 
 <br />
 <br />
 
 ### Add Items
-<img src="/screenshots/2.png">
-<img src="/screenshots/3.png">
+<img src="/screens/2.png">
+<img src="/screens/3.png">
 <br />
 <br />
 
 ### Delete Items
-<img src="/screenshots/4.png">
-<img src="/screenshots/5.png">
+<img src="/screens/4.png">
+<img src="/screens/5.png">
